@@ -70,3 +70,35 @@ p {
   position: relative;
   top: 19px;
 }
+
+.circle:hover {
+  box-shadow: 0px 0px 10px 5px #53ffaa;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 540px;
+    padding: 0 48px;
+  }
+
+  h1 {
+    font-size: 13px;
+    line-height: 17.78px;
+    margin-top: 48px;
+  }
+
+  p {
+    max-width: 444px;
+    font-size: 28px;
+    line-height: 38.25px;
+  }
+
+  .mobile-divider {
+    display: none;
+  }
+
+  .desktop-divider {
+    display: block;
+    margin-top: 40px;
+  }
+}
